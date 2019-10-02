@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+        <meta charset="UTF-8">
+		<!--title-->
+        <title>Mon Partfilo</title>
+		<!--title-->
+        <!--css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <!--css-->
+        <!--font-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+        <script defer src="https://Use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+           <!--font-->
+
+           <!--meta-->
+           <meta name="description" content="la description de votre site: PRIMORDIAL: mettre des bons mots clés">
+           <meta name="keywords" content="webdesign, webdevelopeur, developpeur fron-end">
+           <!--meta-->
+
+    </head>
+    <!--head-->
+    <!--body-->
+    <body>
+    <!--header-->
+        <div class="block">
+                <header class="header">
+                    <a href="#" class="header-logo">Mon Partfilo</a>
+                    <nav class="header-menu">
+                        <a href="#">Accueil</a>
+                        <a href="#">A Propos</a>
+                        <a href="#">Mes Travaux</a>
+                        <a class="#">Contact</a>
+                    </nav>
+
+
+                 </header>
+
+        </div>
+    <!--header-->
+    <!--Banner-->
+        <div class="block">
+            <div class="banner">
+                <img src="src/image/bg.jpg" alt="un ordinateur avec code" class="banner-image">
+                <div class="banner-content">
+                    <h1 class="title is-1">Bienvenu sur mon partfilo</h1>
+                    <h2 class="subtitle">Découvrez mes travaux et mon univers !</h2>
+                    <button class="button is-link" id="open_modal">Contactez -moi !</button>
+                </div>
+            </div>
+        </div>
+    <!--Banner-->
+    <!--Modal-->
+    <div class="modal on-modal"  id="modal_to_open">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title"> Modal title</p>
+                <button class="delete" aria-label="close" id="close_modal"></button>
+              
+              </header>
+              <section class="modal-card-body"><p>Le contenu de mon modal</p></section>
+            <footer class="modal-card-footer">
+              <button class="button is-link"> save Changes</button>
+              
+
+            </footer>
+             
+            </div>
+        </div>
+    <!--Modal-->
+    <!--section a propos-->
+        <div class="block">
+            <div class="container about">
+                <div class="columns"> 
+                    <div class="column about-single-element">
+                        <i class="fas fa-code icon"></i>
+                        <p>
+                                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, en page de texte, comme Aldus PageMaker.
+                        </p>
+                    </div>
+                    <div class="column about-single-element">
+                        <i class="fas fa-coffee icon"></i>
+                        <p>
+                                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,ssages du Lorem Ipsum, de texte, comme Aldus PageMake
+                        </p>
+                    </div>
+                    <div class="column about-single-element">
+                        <i class="fas fa-tape"></i>
+                        <p>
+                                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, se en page de texte, comme Aldus PageMake
+                        </p>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    <!--section a propos-->
+    <!--partfalio-->
+    <div class="block">
+        <h2 class="subtitle heading-size">Mon partfolio</h2>
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                    <div class="notification"> Contient une photo</div>
+               
+              </article>
+              <article class="tile is-child notification is-warning">
+                <img src="src/image/bg.jpg" alt="descriptin de la photo de profil">
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                  <div class="notification is-primary">
+                      <div class="COLORED">100 *100</div>
+                  </div>
+               
+                </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+                    <img src="src/image/bg.jpg" alt="descriptin de la photo de profil">
+             
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+             <div class="notification is-warning">
+                 Le contenu
+             </div>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!--partfalio-->
+    <!--Contact-->
+        <div class="block">
+            <footer class="footer">
+                <h2 class="heading-size">Contactez-moi!</h2>
+                <div class="footer-contact-form">
+                    <form>
+                        <div class="field">
+                             <label class="label">Votre nom:</label>
+                             <div class="control">
+                             <input class="input" type="text" placeholder="exemple : Chihaoui" name="name">
+                            </div>
+                        </div>
+                            <div class="field">
+                                        <label class="label">Votre Prenom:</label>
+                                        <div class="control">
+                                          <input class="input" type="text" placeholder="exemple : Slah" name="firstname">
+                                        </div>
+                                      </div> 
+                             <div class="field">
+                                            <label class="label">Votre Email:</label>
+                                            <div class="control">
+                                              <input class="input" type="text" placeholder="exemple : nom@gmail.com" name="email">
+                                            </div>
+                                          </div>
+                                          <div class="field">
+                                                <label class="label">Votre Message:</label>
+                                                <div class="control">
+                                                        <textarea class="textarea" placeholder="votre message" name="message"></textarea>
+                                                </div>
+                                              </div>              
+                    </form>   
+                    <button class="button is-link" id="send_message">Envoyer!</button>            
+                </div>
+                <div class="footer-informations">
+                    <p>45 rue Henri Dunant Savigny sur orge 91600</p>
+                    <p>3 rue Filex terrier Paris 75020 </p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    <!--Contact-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+         <script src="src/js/main.js"></script>
+    
+    </body>
+    <!--body-->
+</html>
